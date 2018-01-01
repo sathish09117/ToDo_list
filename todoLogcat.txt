@@ -1,0 +1,17 @@
+12-01 10:25:00.282 917-917/firebase.smdeveloper.vvsn.todo_list E/AndroidRuntime: FATAL EXCEPTION: main
+                                                                                 Process: firebase.smdeveloper.vvsn.todo_list, PID: 917
+                                                                                 java.lang.IllegalArgumentException: Invalid document reference. Document references must have an even number of segments, but ToDoLIst has 1
+                                                                                     at com.google.firebase.firestore.DocumentReference.zza(Unknown Source)
+                                                                                     at com.google.firebase.firestore.CollectionReference.document(Unknown Source)
+                                                                                     at firebase.smdeveloper.vvsn.todo_list.MainActivity.updateData(MainActivity.java:114)
+                                                                                     at firebase.smdeveloper.vvsn.todo_list.MainActivity.access$100(MainActivity.java:35)
+                                                                                     at firebase.smdeveloper.vvsn.todo_list.MainActivity$1.onClick(MainActivity.java:76)
+                                                                                     at android.view.View.performClick(View.java:5714)
+                                                                                     at android.view.View$PerformClick.run(View.java:22589)
+                                                                                     at android.os.Handler.handleCallback(Handler.java:739)
+                                                                                     at android.os.Handler.dispatchMessage(Handler.java:95)
+                                                                                     at android.os.Looper.loop(Looper.java:148)
+                                                                                     at android.app.ActivityThread.main(ActivityThread.java:7325)
+                                                                                     at java.lang.reflect.Method.invoke(Native Method)
+                                                                                     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+                                                                                     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
